@@ -61,17 +61,17 @@ p{
    font-size:16px;
 }
 
-button{
+button, .botao{
     background: #017743;
     color:#fff;
     border-radius:40px;
     border:none;
     cursor:pointer;
-    padding:10px;
+    padding:10px 20px;
     margin-top:20px;
-    
-
-
+    display:inline-block;
+    text-decoration:none;
+    font-family: 'Poppins', sans-serif;
 }
 .logo{
     width:80px;
