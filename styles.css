@@ -21,14 +21,14 @@ padding-right:100px;}
 }
 
 .caixa-texto{
-    width:600px;
+    max-width:600px;
 }
 
 .caixa-imagem{
-width:600px;
-display:flex;
-justify-content:center;
-margin-top:250px;
+    max-width:600px;
+    display:flex;
+    justify-content:center;
+    margin-top:80px;
 }
 
 .menu{
@@ -37,9 +37,10 @@ margin-top:250px;
 }
 
 
-/*img{
-    width:80px;
-}*/
+img{
+    max-width:100%;
+    height:auto;
+}
 
 
 h2{
